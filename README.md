@@ -1,3 +1,6 @@
+Based on the information retrieved, here's a README file for the `product-service` repository:
+
+```markdown
 # Product Service
 
 Product microservice for demo application.
@@ -28,7 +31,7 @@ The `product-service` is a microservice that handles product-related operations 
 
 - **Programming Language**: Java
 - **Framework**: Spring Boot
-- **Database**: MySQL
+- **Database**: [Your Database Here]
 - **Build Tool**: Maven
 - **Other Technologies**: [Any other technologies used]
 
@@ -38,7 +41,7 @@ The `product-service` is a microservice that handles product-related operations 
 
 - Java 11 or higher
 - Maven
-- MySQL
+- [Your Database Here]
 
 ### Installation
 
@@ -46,47 +49,54 @@ The `product-service` is a microservice that handles product-related operations 
    ```bash
    git clone https://github.com/jnuwan/product-service.git
    cd product-service
-   
-Build the project using Maven:
+   ```
 
-mvn clean install
+2. Build the project using Maven:
+   ```bash
+   mvn clean install
+   ```
 
-    Configure your database settings in application.properties.
+3. Configure your database settings in `application.properties`.
 
-Running the Application
+### Running the Application
 
 To run the application locally, use the following command:
-
+```bash
 mvn spring-boot:run
+```
 
-Usage
+## Usage
 
-Once the application is running, you can access the API at http://localhost:8080/api/products. Here are some example endpoints:
+Once the application is running, you can access the API at `http://localhost:8080/api/products`. Here are some example endpoints:
 
-    GET /api/products: Retrieve all products.
-    POST /api/products: Create a new product.
-    GET /api/products/{id}: Retrieve a product by ID.
-    PUT /api/products/{id}: Update a product by ID.
-    DELETE /api/products/{id}: Delete a product by ID.
+- `GET /api/products`: Retrieve all products.
+- `POST /api/products`: Create a new product.
+- `GET /api/products/{id}`: Retrieve a product by ID.
+- `PUT /api/products/{id}`: Update a product by ID.
+- `DELETE /api/products/{id}`: Delete a product by ID.
 
-Contributing
+## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request.
-Steps to Contribute
 
-    Fork the repository.
-    Create a new branch (git checkout -b feature-branch).
-    Make your changes.
-    Commit your changes (git commit -m 'Add some feature').
-    Push to the branch (git push origin feature-branch).
-    Open a pull request.
+### Steps to Contribute
 
-License
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Make your changes.
+4. Commit your changes (`git commit -m 'Add some feature'`).
+5. Push to the branch (`git push origin feature-branch`).
+6. Open a pull request.
 
-This project is licensed under the MIT License - see the LICENSE file for details.
-Contact
+## License
 
-    GitHub: jnuwan
-    Email: [Your Email Here]
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+- GitHub: [jnuwan](https://github.com/jnuwan)
+- Email: [Your Email Here]
+
+```
 
 Feel free to customize the sections such as `Technologies` and `Contact` with specific details relevant to your project and personal information.
