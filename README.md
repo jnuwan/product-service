@@ -47,3 +47,46 @@ The `product-service` is a microservice that handles product-related operations 
    git clone https://github.com/jnuwan/product-service.git
    cd product-service
    
+Build the project using Maven:
+
+mvn clean install
+
+    Configure your database settings in application.properties.
+
+Running the Application
+
+To run the application locally, use the following command:
+
+mvn spring-boot:run
+
+Usage
+
+Once the application is running, you can access the API at http://localhost:8080/api/products. Here are some example endpoints:
+
+    GET /api/products: Retrieve all products.
+    POST /api/products: Create a new product.
+    GET /api/products/{id}: Retrieve a product by ID.
+    PUT /api/products/{id}: Update a product by ID.
+    DELETE /api/products/{id}: Delete a product by ID.
+
+Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request.
+Steps to Contribute
+
+    Fork the repository.
+    Create a new branch (git checkout -b feature-branch).
+    Make your changes.
+    Commit your changes (git commit -m 'Add some feature').
+    Push to the branch (git push origin feature-branch).
+    Open a pull request.
+
+License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+Contact
+
+    GitHub: jnuwan
+    Email: [Your Email Here]
+
+Feel free to customize the sections such as `Technologies` and `Contact` with specific details relevant to your project and personal information.
